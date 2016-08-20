@@ -1,0 +1,14 @@
+{
+    "name": "visualweber/socialoauth",
+    "description": "SocialOAuth",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "visualweber",
+        "Socials OAuth"
+    ],
+    "autoload": {
+        "psr-4" : {
+            "SocialOAuth\\" : "src/"
+        }
+    }
+}
