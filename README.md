@@ -1,11 +1,31 @@
-echo "# socialoauth" >> README.md
+SocialOAuth
+===========
 
-git init
+Great OAuth2 client for ZF1. It provides clients for github, google, facebook and linkedin, others are coming soon. 
 
-git add README.md
+The library is kept as simple as possible, it does not provide routes or controllers.
 
-git commit -m "first commit"
 
-git remote add origin https://github.com/visualweber/socialoauth.git
+Installation with Composer
+--------------------------
+1. Add this project in your `composer.json`:
+```json
+    "require": {
+        "visualweber/social-oauth": "dev-master",
+    }
+```
 
-git push -u origin master
+2. Fetch the repository with composer:
+```bash
+$ php composer.phar update
+```
+
+Usage
+-----
+
+
+TODO
+----
+* Add other clients
+* Write some decent documentation.
+* Demo module is on it's way.
